@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>個人履歷</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+background:#f2f4f7;
+margin:0;
+padding:40px;
+display:flex;
+justify-content:center;
+}
+
+.card{
+background:white;
+padding:30px;
+width:600px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1{
+margin:0;
+font-size:28px;
+}
+
+h2{
+margin-top:30px;
+font-size:20px;
+border-bottom:2px solid #eee;
+padding-bottom:5px;
+}
+
+.info{
+color:#666;
+margin-bottom:20px;
+}
+
+.skill{
+display:flex;
+justify-content:space-between;
+}
+
+.skill div{
+width:45%;
+}
+
+button{
+margin-top:20px;
+padding:10px 18px;
+border:none;
+border-radius:6px;
+background:#1abc9c;
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+background:#16a085;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<p><b>學生編號：</b>AU114054003</p>
+
+<h1>陳佩琦</h1>
+
+<p class="info">第一學年 ・ 亞洲大學 ・ 應屆生</p>
+
+<h2>個人簡介</h2>
+
+<p>
+熱愛設計與學習新技術，希望未來從事相關設計工作。
+具備基礎文書處理能力，個性積極，樂於學習與挑戰。
+</p>
+
+<h2>學歷</h2>
+
+<p>
+<b>亞洲大學</b><br>
+第一學年（在學）－主修：未定
+</p>
+
+<h2>技能</h2>
+
+<div class="skill">
+
+<div>
+<b>設計</b>
+<p>基礎設計、版面排版</p>
+</div>
+
+<div>
+<b>電腦</b>
+<p>Word / Excel<br>HTML / CSS 基礎</p>
+</div>
+
+</div>
+
+<h2>經歷</h2>
+
+<p>
+目前無正式工作經驗，願意於實習期間快速學習並累積經驗。
+</p>
+
+<h2>聯絡方式</h2>
+
+<p>Email：happinesspeggy0115@gmail.com</p>
+<p>電話：0908327132</p>
+
+<button onclick="printResume()">列印 / 另存 PDF</button>
+
+</div>
+
+<script>
+
+function printResume(){
+window.print();
+}
+
+</script>
+
+</body>
+</html>
